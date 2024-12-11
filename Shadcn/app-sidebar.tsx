@@ -15,34 +15,34 @@ import {
 const items = [
   {
     title: "Home",
-    url: "#",
+    url: "#Home",
     icon: Home,
   },
   {
     title: "Inbox",
-    url: "#",
+    url: "#Inbox",
     icon: Inbox,
   },
   {
     title: "Calendar",
-    url: "#",
+    url: "#Calendar",
     icon: Calendar,
   },
   {
     title: "Search",
-    url: "#",
+    url: "#Search",
     icon: Search,
   },
   {
     title: "Settings",
-    url: "#",
+    url: "#Settings",
     icon: Settings,
   },
 ];
 
 export function AppSidebar() {
   return (
-    <Sidebar>
+    <Sidebar side="left" variant="floating" collapsible="icon">
       <SidebarContent>
         <SidebarGroup>
           <SidebarGroupLabel>Application</SidebarGroupLabel>
